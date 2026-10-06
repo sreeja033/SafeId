@@ -1,0 +1,8 @@
+{
+  "name": " final one SelfID - Sovereign Identity Wallet",
+  "description": "Self-sovereign identity wallet and zero-knowledge verification portal with W3C Verifiable Credentials and selective disclosure.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

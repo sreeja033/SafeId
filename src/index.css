@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #0c1321;
+  --color-surface-dim: #0c1321;
+  --color-surface-bright: #323949;
+  --color-surface-container-lowest: #070e1c;
+  --color-surface-container-low: #151b2a;
+  --color-surface-container: #19202e;
+  --color-surface-container-high: #232a39;
+  --color-surface-container-highest: #2e3544;
+  --color-on-surface: #dce2f6;
+  --color-on-surface-variant: #c7c4d7;
+  --color-inverse-surface: #dce2f6;
+  --color-inverse-on-surface: #2a3040;
+  --color-outline: #908fa0;
+  --color-outline-variant: #464554;
+  --color-surface-tint: #c0c1ff;
+  --color-primary: #c0c1ff;
+  --color-on-primary: #1000a9;
+  --color-primary-container: #8083ff;
+  --color-on-primary-container: #0d0096;
+  --color-inverse-primary: #494bd6;
+  --color-secondary: #5de6ff;
+  --color-on-secondary: #00363e;
+  --color-secondary-container: #00cbe6;
+  --color-on-secondary-container: #00515d;
+  --color-tertiary: #4edea3;
+  --color-on-tertiary: #003824;
+  --color-tertiary-container: #00885d;
+  --color-on-tertiary-container: #000703;
+  --color-error: #ffb4ab;
+  --color-on-error: #690005;
+  --color-error-container: #93000a;
+  --color-on-error-container: #ffdad6;
+  --color-background: #0c1321;
+  --color-on-background: #dce2f6;
+  --color-surface-variant: #2e3544;
+  --color-primary-fixed: #e1e0ff;
+  --color-primary-fixed-dim: #c0c1ff;
+  --color-secondary-fixed: #a2eeff;
+  --color-secondary-fixed-dim: #2fd9f4;
+  --color-tertiary-fixed: #6ffbbe;
+  --color-tertiary-fixed-dim: #4edea3;
+
+  --font-mono-code: "JetBrains Mono", monospace;
+  --font-inter: "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-on-surface);
+    font-family: var(--font-inter);
+    overflow-x: hidden;
+  }
+}
+
+/* Material Symbols sizing and alignment */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: middle;
+}
